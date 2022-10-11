@@ -1,0 +1,22 @@
+.imgcontainer {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  overflow: hidden;
+  height: 590px;
+}
+img {
+  margin: 1.5rem;
+  width: 350px;
+  height: 500px;
+  box-shadow: 5px 5px 20px 5px;
+  object-fit: cover;
+  transition: all 0.5 ease;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+p {
+  margin-top: 1rem;
+}
